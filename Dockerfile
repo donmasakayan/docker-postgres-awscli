@@ -3,7 +3,7 @@ FROM postgres
 
 # Install curl
 RUN apt-get update
-RUN apt-get -y install curl unzip
+RUN apt-get -y install curl unzip jq
 
 # Install AWS CLI
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
